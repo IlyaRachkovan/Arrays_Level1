@@ -22,17 +22,26 @@ public class Main {
 //        System.out.println(showLastpositiveNumber);
 
 //
-        SequenceArrayCreator sequenceArrayCreator = new SequenceArrayCreator();
-        int [] create;
-        create = sequenceArrayCreator.createSequenceArray(-2);
-        System.out.println(Arrays.toString(create));
+//        SequenceArrayCreator sequenceArrayCreator = new SequenceArrayCreator();
+//        int [] create;
+//        create = sequenceArrayCreator.createSequenceArray(-2);
+//        System.out.println(Arrays.toString(create));
+//        MatrixPrinter matrixPrinter = new MatrixPrinter();
+//     matrixPrinter.matrixPrinter(new int[][]{{1, 2, 3}, {1, 2, 3}, {1, 2, 3}});
+        MatrixAverageCalculator matrixAverageCalculator = new MatrixAverageCalculator();
+        double averageMatrix;
+        averageMatrix = matrixAverageCalculator.MatrixAverageCalculator(new int [][]{{1,2,3}, {1,2,3}, {1,2,3}});
+
+        System.out.println(averageMatrix);
+
+
+
+
 
 
 
 
     }
-
-
 
 
 }
